@@ -1,0 +1,16 @@
+package sk.cyklosoft.sjcp.thread;
+
+import sk.cyklosoft.sjcp.data.SharedObject;
+
+public class MainVolatileKeyword {
+    //public static int age = 0;
+
+    public static void main(String[] args) throws InterruptedException {
+        SharedObject sharedObject = new SharedObject();
+        new MyVolatileThread_3(sharedObject).start();
+        new MyVolatileThread_4(sharedObject).start();
+    }
+}
+
+
+

@@ -1,0 +1,40 @@
+1.Comparator
+
+2.BinarySearch
+3.PriorityQueue
+4.SynchronizationList
+
+
+VOLATILE
+THREADLOCAL
+SYNCHRONIZED
+
+synchronized array list
+http://www.javainterviewpoint.com/how-to-synchronize-arraylist-in-java-with-example/
+https://stackoverflow.com/questions/1132507/java-array-thread-safety
+https://stackoverflow.com/questions/29153404/how-to-access-an-array-thread-safely-in-java
+https://stackoverflow.com/questions/2444005/how-do-i-make-my-arraylist-thread-safe-another-approach-to-problem-in-java
+Whenever you want to use ant thread safe version of ant collection object,take help of java.util.concurrent.* package. It has almost all concurrent version of unsynchronized collection objects. eg: for ArrayList, you have java.util.concurrent.CopyOnWriteArrayList
+
+You can do Collections.synchronizedCollection(any collection object),but remember this classical synchr. technique is expensive and comes with performence overhead. java.util.concurrent.* package is less expensive and manage the performance in better way by using mechanisms like
+
+copy-on-write,compare-and-swap,Lock,snapshot iterators,etc.
+
+https://stackoverflow.com/questions/17991841/array-in-multithread-environment-read-and-write-both
+Atomicity - exclusive
+Visibility
+
+
+
+producer consumer
+https://stackoverflow.com/questions/2332537/producer-consumer-threads-using-a-queue
+https://www.tutorialspoint.com/javaexamples/thread_procon.htm
+http://www.geeksforgeeks.org/producer-consumer-solution-using-threads-java/
+
+
+thread local - instance attribute
+volatile - visibility
+https://dzone.com/articles/java-volatile-keyword-0
+http://tutorials.jenkov.com/java-concurrency/volatile.html
+
+synchronize - exclusive, visibility
