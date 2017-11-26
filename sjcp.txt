@@ -1,8 +1,20 @@
-1.Comparator
+1.Comparator 87/56
+ok 26.11.2017
 
-2.BinarySearch
+2.BinarySearch 77/39
+ok 26.11.2017
+
 3.PriorityQueue
+working 
+
 4.SynchronizationList
+5.ENUM
+6.innner class
+7.thread consumer-producer
+8.
+9.
+
+
 
 
 VOLATILE
