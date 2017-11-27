@@ -1,6 +1,6 @@
-package sk.cyklosoft.sjcp.thread;
+package sk.cyklosoft.scjp.thread;
 
-import sk.cyklosoft.sjcp.data.SharedObject;
+import sk.cyklosoft.scjp.data.SharedObject;
 
 public class MyVolatileThread_4 extends Thread {
     

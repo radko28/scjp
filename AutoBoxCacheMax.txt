@@ -1,0 +1,3 @@
+https://javapapers.com/java/java-integer-cache/
+https://stackoverflow.com/questions/10149959/using-operator-in-java-to-compare-wrapper-objects
+https://stackoverflow.com/questions/1514910/how-to-properly-compare-two-integers-in-java

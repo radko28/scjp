@@ -1,18 +1,46 @@
 1.Comparator 87/56
 ok 26.11.2017
 
-2.BinarySearch 77/39
+2.collections BinarySearch 77/39
 ok 26.11.2017
 
-3.PriorityQueue
-working 
+3.collections PriorityQueue
+working
 
-4.SynchronizationList
 5.ENUM
+
+8.equals
+!= , ==, equals Integer
+ 
+11.Hashcode,equals
+
+15.clone Prototype pattern
+
+16.seriazable, transient
+
+17.Comparable
+
 6.innner class
+
+4.thread SynchronizationList
 7.thread consumer-producer
-8.
-9.
+
+9.Files
+10.Console, Scanner
+12.Date
+13.Regex
+14.blockingqueue
+
+18.interface
+19.overload, override
+20.package
+21.constructor
+22.abstract, final class
+23.static variables
+24.init blocks
+
+25.collections 
+26.threads
 
 
 

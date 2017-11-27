@@ -1,4 +1,4 @@
-package sk.cyklosoft.sjcp.thread;
+package sk.cyklosoft.scjp.thread;
 
 public class MainThreadLocal {
     
