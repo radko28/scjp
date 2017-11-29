@@ -1,6 +1,6 @@
 package sk.cyklosoft.scjp.data;
 
-public class Address {
+public class Address implements Comparable<Address> {
 
     private String name; 
     private int number;
@@ -43,4 +43,10 @@ public class Address {
 	public void setTown(String town) {
 		this.town = town;
 	}
+	
+    @Override
+    public int compareTo(Address o) {
+        return name.compareTo(o.getName());
+    }
+
 }
